@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default revision="refs/heads/master" remote="freedesktop" groups="freedesktop" sync-j="8" />
+  <project path="mesa" name="mesa" />
+  <project path="mesa-drm" name="mesa-drm" />
+  <project path="drm-intel" name="drm-intel" />
+  <project path="xorg-libpciaccess" name="xorg-libpciaccess" />
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/kondapallykalyan/" />
+  <remote  name="cros"
+           fetch="https://chromium.googlesource.com"
+           review="https://chromium-review.googlesource.com" />
+  <remote  name="chromium"
+           fetch="https://chromium.googlesource.com/"
+           alias="cros" />
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="https://android-review.googlesource.com" />
+  <remote  name="freedesktop"
+           fetch="https://github.com/freedesktop" />
+  <remote  name="eproxy"
+           fetch="https://github.com/anholt" />
+
+  <include name="include/cros_vm.xml" />
+  <include name="include/drivers.xml" />
+  <include name="include/libraries.xml" />
+  <include name="include/libraries_vm.xml" />
+
+</manifest>

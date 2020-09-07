@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default revision="refs/heads/master" remote="freedesktop" groups="freedesktop" sync-j="8" />
+  <project path="wayland" name="wayland" />
+  <project path="wayland-protocols" name="wayland-protocols" />
+</manifest>
