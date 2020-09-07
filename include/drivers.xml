@@ -2,6 +2,6 @@
 <manifest>
   <project path="mesa" name="mesa" remote="freedesktop" />
   <project path="mesa-drm" name="mesa-drm" remote="freedesktop" />
-  <project path="drm-intel" name="drm-intel" remote="freedesktop" />
+  <project revision="refs/heads/drm-intel-next" path="drm-intel" name="drm-intel" remote="freedesktop" />
   <project path="xorg-libpciaccess" name="xorg-libpciaccess" remote="freedesktop" />
 </manifest>
