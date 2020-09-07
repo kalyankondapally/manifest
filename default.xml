@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="github"
-           fetch="https://github.com/kondapallykalyan/" />
   <remote  name="cros"
            fetch="https://chromium.googlesource.com"
            review="https://chromium-review.googlesource.com" />
@@ -12,6 +10,9 @@
            fetch="https://github.com/freedesktop" />
   <remote  name="eproxy"
            fetch="https://github.com/anholt" />
+  <default revision="refs/heads/master" remote="cros" sync-j="8" />
+  <default revision="refs/heads/master" remote="freedesktop" sync-j="8" />
+  <default revision="refs/heads/master" remote="eproxy" sync-j="8" />
 
   <include name="include/cros_vm.xml" />
   <include name="include/drivers.xml" />
