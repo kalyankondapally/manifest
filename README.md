@@ -1,0 +1,2 @@
+# manifest
+Initial placeholders
