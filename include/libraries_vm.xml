@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <default revision="refs/heads/master" remote="freedesktop" groups="freedesktop" sync-j="8" />
-  <project path="virglrenderer" name="virglrenderer" />
+  <project path="virglrenderer" name="virglrenderer" remote="freedesktop" />
   <project path="minigbm" name="minigbm" remote="cros" />
   <project path="libepoxy" name="libepoxy" remote="eproxy" />
 </manifest>

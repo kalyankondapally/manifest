@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <default revision="refs/heads/master" remote="cros" sync-j="8" />
   <project path="cros_vm/src/repohooks" name="chromiumos/repohooks" groups="minilayout,firmware,buildtools,labtools,crosvm" />
   <project path="cros_vm/docs" name="chromiumos/docs" groups="crosvm" />
   <project path="cros_vm/chromite" name="chromiumos/chromite" groups="minilayout,firmware,buildtools,chromeos-admin,labtools,sysmon,devserver,crosvm" />
