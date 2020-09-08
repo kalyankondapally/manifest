@@ -7,18 +7,11 @@
   
   <default remote="cros" revision="refs/heads/master" sync-j="8"/>
   
-  <project name="chromiumos/chromite" path="cros_vm/chromite" revision="4a653f70b2583d2fa7953260c1f8557559a1695b" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="minilayout,firmware,buildtools,chromeos-admin,labtools,sysmon,devserver,crosvm"/>
-  <project name="chromiumos/docs" path="cros_vm/docs" revision="f2d3653f41ffbf761e5496393216dd5eed53d114" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
-  <project name="chromiumos/platform/crosvm" path="cros_vm/src/platform/crosvm" revision="e37b4d3771c25c211d113f6d376c83ea5d548188" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
+
   <project name="chromiumos/platform/minigbm" path="minigbm" revision="45aa68b553a8da1aad1df1af1b8d23e7c8860718" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
-  <project name="chromiumos/platform2" path="cros_vm/src/platform2" revision="e29961eb7cfb7d07ae6b27e3d77c5430b8325cff" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
-  <project name="chromiumos/repohooks" path="cros_vm/src/repohooks" revision="2089e01b8f2c8c5f8125d7eee57dce4ead69f345" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="minilayout,firmware,buildtools,labtools,crosvm"/>
-  <project name="chromiumos/third_party/adhd" path="cros_vm/src/third_party/adhd" revision="5734e6a132af788d00f66dcd14fbd10347118488" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
-  <project name="drm-intel" remote="freedesktop" revision="ced026e959bec5046afa310d6474e147b6294da2" upstream="refs/heads/drm-intel-next" dest-branch="refs/heads/drm-intel-next"/>
   <project name="libepoxy" remote="eproxy" revision="34ecb908b044446226f4cf8829419664ae0ca544" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="mesa" remote="freedesktop" revision="9d02d65f4643bd4885c40ca2fca4e1e8f7cc202e" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="mesa-drm" remote="freedesktop" revision="77687f8d6ea321998b87f87433db1fea7518b8bf" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
-  <project name="platform/external/minijail" path="cros_vm/src/aosp/external/minijail" remote="aosp" revision="c9b0799ea728d00eea97d7c721b400663f15c7b2" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
   <project name="virglrenderer" remote="freedesktop" revision="2dc844a4ca5f47f9f8e8982bc816eed29450fcd1" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="wayland" remote="freedesktop" revision="9b7171f955225c5481c493c34e5ebe639cfd67ef" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="wayland-protocols" remote="freedesktop" revision="536243111b768f3568707e8b00f69422bc660c42" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
