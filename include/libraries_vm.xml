@@ -3,4 +3,5 @@
   <project path="virglrenderer" name="virglrenderer" remote="freedesktop" />
   <project path="minigbm" name="minigbm" remote="github" />
   <project path="libepoxy" name="libepoxy" remote="eproxy" />
+  <project path="xorgproto" name="xorgproto" remote="github" />
 </manifest>

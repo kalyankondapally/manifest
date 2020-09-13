@@ -5,7 +5,6 @@
   <remote name="eproxy" fetch="https://github.com/anholt"/>
   <remote name="freedesktop" fetch="https://github.com/freedesktop"/>
   <remote name="github" fetch="https://github.com/kalyankondapally"/>
-  
   <default remote="cros" revision="refs/heads/master" sync-j="8"/>
   
   <project name="libepoxy" remote="eproxy" revision="34ecb908b044446226f4cf8829419664ae0ca544" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
@@ -15,5 +14,6 @@
   <project name="wayland" remote="freedesktop" revision="9b7171f955225c5481c493c34e5ebe639cfd67ef" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="wayland-protocols" remote="freedesktop" revision="536243111b768f3568707e8b00f69422bc660c42" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="xorg-libpciaccess" remote="freedesktop" revision="3e5ae795a265b8843c09cba310a5582c909f97a4" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
+  <project path="xorgproto" name="xorgproto" remote="github" revision="e4d9ffdd51b15b1c9441086f7a86bb50a9f7b555" upstream="refs/heads/master" dest-branch="refs/heads/master" />
   <project name="minigbm" remote="github" revision="5ccd9a5822c4d9c622f903314883aebd12830a4c" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
 </manifest>
