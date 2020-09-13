@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="virglrenderer" name="virglrenderer" remote="freedesktop" />
-  <project path="minigbm" name="chromiumos/platform/minigbm" remote="cros" />
+  <project path="minigbm" name="minigbm" remote="github" />
   <project path="libepoxy" name="libepoxy" remote="eproxy" />
 </manifest>

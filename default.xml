@@ -4,10 +4,10 @@
   <remote name="cros" fetch="https://chromium.googlesource.com" review="https://chromium-review.googlesource.com"/>
   <remote name="eproxy" fetch="https://github.com/anholt"/>
   <remote name="freedesktop" fetch="https://github.com/freedesktop"/>
+  <remote name="github" fetch="https://github.com/kalyankondapally"/>
   
   <default remote="cros" revision="refs/heads/master" sync-j="8"/>
   
-  <project name="chromiumos/platform/minigbm" path="minigbm" revision="45aa68b553a8da1aad1df1af1b8d23e7c8860718" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="libepoxy" remote="eproxy" revision="34ecb908b044446226f4cf8829419664ae0ca544" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="mesa" remote="freedesktop" revision="fc44861517c3278305ba78fc3b6dade2fa4514bf" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="mesa-drm" remote="freedesktop" revision="77687f8d6ea321998b87f87433db1fea7518b8bf" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
@@ -15,4 +15,5 @@
   <project name="wayland" remote="freedesktop" revision="9b7171f955225c5481c493c34e5ebe639cfd67ef" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="wayland-protocols" remote="freedesktop" revision="536243111b768f3568707e8b00f69422bc660c42" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="xorg-libpciaccess" remote="freedesktop" revision="3e5ae795a265b8843c09cba310a5582c909f97a4" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
+  <project name="minigbm" remote="github" revision="d356069e531be62e2b77a7929473893bed6e71ef" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
 </manifest>
