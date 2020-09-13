@@ -15,5 +15,5 @@
   <project name="wayland" remote="freedesktop" revision="9b7171f955225c5481c493c34e5ebe639cfd67ef" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="wayland-protocols" remote="freedesktop" revision="536243111b768f3568707e8b00f69422bc660c42" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project name="xorg-libpciaccess" remote="freedesktop" revision="3e5ae795a265b8843c09cba310a5582c909f97a4" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
-  <project name="minigbm" remote="github" revision="d356069e531be62e2b77a7929473893bed6e71ef" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
+  <project name="minigbm" remote="github" revision="e005f4b29c8c8477a044cfbbf6e2ed0ab45f27cf" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
 </manifest>
