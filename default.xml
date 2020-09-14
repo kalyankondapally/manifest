@@ -18,8 +18,8 @@
   <project name="minigbm" remote="github" revision="5ccd9a5822c4d9c622f903314883aebd12830a4c" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   
     <project name="chromiumos/chromite" path="cros_vm/chromite" revision="a33f52cef868fd7b2dd97030a62cb670147ce4b2" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="minilayout,firmware,buildtools,chromeos-admin,labtools,sysmon,devserver,crosvm">
-    <copyfile src="AUTHORS" dest="AUTHORS"/>
-    <copyfile src="LICENSE" dest="LICENSE"/>
+    <copyfile src="AUTHORS" dest="cros_vm/AUTHORS"/>
+    <copyfile src="LICENSE" dest="cros_vm/LICENSE"/>
   </project>
   <project name="chromiumos/docs" path="cros_vm/docs" revision="6de156f713c54a89a996d063f8b1530b058308f2" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
   <project name="chromiumos/platform/crosvm" path="cros_vm/src/platform/crosvm" revision="e37b4d3771c25c211d113f6d376c83ea5d548188" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
