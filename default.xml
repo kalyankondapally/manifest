@@ -16,4 +16,16 @@
   <project name="xorg-libpciaccess" remote="freedesktop" revision="3e5ae795a265b8843c09cba310a5582c909f97a4" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
   <project path="xorgproto" name="xorgproto" remote="github" revision="e4d9ffdd51b15b1c9441086f7a86bb50a9f7b555" upstream="refs/heads/master" dest-branch="refs/heads/master" />
   <project name="minigbm" remote="github" revision="5ccd9a5822c4d9c622f903314883aebd12830a4c" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
+  
+    <project name="chromiumos/chromite" path="cros_vm/chromite" revision="a33f52cef868fd7b2dd97030a62cb670147ce4b2" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="minilayout,firmware,buildtools,chromeos-admin,labtools,sysmon,devserver,crosvm">
+    <copyfile src="AUTHORS" dest="AUTHORS"/>
+    <copyfile src="LICENSE" dest="LICENSE"/>
+  </project>
+  <project name="chromiumos/docs" path="cros_vm/docs" revision="6de156f713c54a89a996d063f8b1530b058308f2" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
+  <project name="chromiumos/platform/crosvm" path="cros_vm/src/platform/crosvm" revision="e37b4d3771c25c211d113f6d376c83ea5d548188" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
+  <project name="chromiumos/platform2" path="cros_vm/src/platform2" revision="c96bf695013043496018423d7d253efcab05dbdd" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
+  <project name="chromiumos/repohooks" path="cros_vm/src/repohooks" revision="2089e01b8f2c8c5f8125d7eee57dce4ead69f345" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="minilayout,firmware,buildtools,labtools,crosvm"/>
+  <project name="chromiumos/third_party/adhd" path="cros_vm/src/third_party/adhd" revision="5734e6a132af788d00f66dcd14fbd10347118488" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
+  <project name="drm-intel-crosvm" path="drm-intel" remote="github" revision="e80526a18361b06a4bceb553c990df2339691538" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
+  <project name="platform/external/minijail" path="cros_vm/src/aosp/external/minijail" remote="aosp" revision="4fc5781ed3ee9430291f5281812f4f6655eb70df" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
 </manifest>

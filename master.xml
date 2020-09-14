@@ -16,5 +16,6 @@
   <include name="include/drivers.xml" />
   <include name="include/libraries.xml" />
   <include name="include/libraries_vm.xml" />
+  <include name="include/cros_vm.xml" />
 
 </manifest>
