@@ -22,8 +22,8 @@
     <copyfile src="LICENSE" dest="cros_vm/LICENSE"/>
   </project>
   <project name="chromiumos/docs" path="cros_vm/docs" revision="6de156f713c54a89a996d063f8b1530b058308f2" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
-  <project name="chromiumos/platform/crosvm" path="cros_vm/src/platform/crosvm" revision="e37b4d3771c25c211d113f6d376c83ea5d548188" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
-  <project name="chromiumos/platform2" path="cros_vm/src/platform2" revision="c96bf695013043496018423d7d253efcab05dbdd" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
+  <project name="crosvm" path="cros_vm/src/platform/crosvm" remote="github" revision="19c0ca7f113e43ec07b1a45e28c8dc041e9b05af" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
+  <project name="chromiumos-platform2" path="cros_vm/src/platform2" remote="github" revision="265731bc9035d25439877542014f80ee838be26b" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
   <project name="chromiumos/repohooks" path="cros_vm/src/repohooks" revision="2089e01b8f2c8c5f8125d7eee57dce4ead69f345" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="minilayout,firmware,buildtools,labtools,crosvm"/>
   <project name="chromiumos/third_party/adhd" path="cros_vm/src/third_party/adhd" revision="5734e6a132af788d00f66dcd14fbd10347118488" upstream="refs/heads/master" dest-branch="refs/heads/master" groups="crosvm"/>
   <project name="drm-intel-crosvm" path="drm-intel" remote="github" revision="e80526a18361b06a4bceb553c990df2339691538" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
