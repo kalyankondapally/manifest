@@ -8,6 +8,6 @@
    </project>
   <project path="cros_vm/src/aosp/external/minijail" groups="crosvm" name="platform/external/minijail" remote="aosp" />
   <project path="cros_vm/src/platform2" groups="github" name="chromiumos-platform2 " />
-  <project path="cros_vm/src/platform/crosvm" groups="crosvm" name="chromiumos/platform/crosvm" />
+  <project path="cros_vm/src/platform/crosvm" groups="github" name="crosvm" />
   <project path="cros_vm/src/third_party/adhd" groups="crosvm" name="chromiumos/third_party/adhd"/>
 </manifest>
