@@ -10,4 +10,5 @@
   <project path="cros_vm/src/platform2" groups="crosvm" name="chromiumos-platform2" remote="github" />
   <project path="cros_vm/src/platform/crosvm" groups="crosvm" name="crosvm" remote="github" />
   <project path="cros_vm/src/third_party/adhd" groups="crosvm" name="chromiumos/third_party/adhd"/>
+  <project path="cros_vm/src/third_party/tpm2" groups="crosvm" name="chromiumos/third_party/tpm2"/>
 </manifest>
