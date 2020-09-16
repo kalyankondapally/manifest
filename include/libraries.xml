@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project path="wayland" name="wayland" remote="freedesktop" />
-  <project path="wayland-protocols" name="wayland-protocols" remote="freedesktop" />
-</manifest>

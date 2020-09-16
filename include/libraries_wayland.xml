@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="wayland/wayland" name="wayland" remote="github" />
+  <project path="wayland/wayland-protocols" name="wayland-protocols" remote="github" />
+  <project path="wayland/libxkbcommon" name="libxkbcommon" remote="github" />
+</manifest>

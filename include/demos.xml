@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="demos/glew" name="glew" remote="github" />
+  <project path="demos/glu" name="glu" remote="github" />
+  <project path="demos/mesa-demos" name="mesa-demos" remote="github" />
+</manifest>
