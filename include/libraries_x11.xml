@@ -18,6 +18,6 @@
   <project path="x11/xorgproto" name="xorgproto" remote="github" />
   <project path="x11/libxtrans" name="libxtrans" remote="github" />
   <project path="x11/libxrender" name="libxrender" remote="github" />
-    <project path="x11/util" name="font-util" remote="github" />
+  <project path="x11/util" name="font-util" remote="github" />
   <project path="x11/xkbcomp" name="xkbcomp" remote="github" />
 </manifest>
