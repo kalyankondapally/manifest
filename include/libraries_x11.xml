@@ -15,5 +15,7 @@
   <project path="x11/libxdmcp" name="libxdmcp" remote="github" />
   <project path="x11/libX11" name="libX11" remote="github" />
   <project path="x11/xserver" name="xserver" remote="github" />
-  <project path="x11/libpciaccess" name="libpciaccess" remote="freedesktop" />
+  <project path="x11/libpciaccess" name="libpciaccess" remote="github" />
+  <project path="x11/libepoxy" name="libepoxy" remote="github" />
+  <project path="x11/xorgproto" name="xorgproto" remote="github" />
 </manifest>

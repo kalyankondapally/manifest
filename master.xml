@@ -16,7 +16,6 @@
   <include name="include/drivers.xml" />
   <include name="include/libraries_wayland.xml" />
   <include name="include/libraries_vm.xml" />
-  <include name="include/cros_vm.xml" />
   <include name="include/libraries_x11.xml" />
   <include name="include/demos.xml" />
   
