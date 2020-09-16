@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="mesa" name="mesa" remote="freedesktop" />
-  <project path="mesa-drm" name="mesa-drm" remote="freedesktop" />
-  <project name="drm-intel-crosvm" path="drm-intel" remote="github" />
+  <project path="drivers/mesa" name="mesa" remote="freedesktop" />
+  <project path="drivers/mesa-drm" name="mesa-drm" remote="freedesktop" />
+  <project path="drivers/drm-intel" name="drm-intel-crosvm" remote="github" />
 </manifest>
