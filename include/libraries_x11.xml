@@ -18,4 +18,6 @@
   <project path="x11/libpciaccess" name="libpciaccess" remote="github" />
   <project path="x11/libepoxy" name="libepoxy" remote="github" />
   <project path="x11/xorgproto" name="xorgproto" remote="github" />
+  <project path="x11/libxtrans" name="libxtrans" remote="github" />
+  <project path="x11/libxrender" name="libxrender" remote="github" />
 </manifest>
