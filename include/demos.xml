@@ -3,4 +3,5 @@
   <project path="demos/glew" name="glew" remote="github" />
   <project path="demos/glu" name="glu" remote="github" />
   <project path="demos/mesa-demos" name="mesa-demos" remote="github" />
+  <project path="demos/xdpyinfo" name="xdpyinfo" remote="github" />
 </manifest>
