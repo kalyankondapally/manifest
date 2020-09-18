@@ -21,5 +21,6 @@
   <project path="x11/util" name="font-util" remote="github" />
   <project path="x11/xkbcomp" name="xkbcomp" remote="github" />
   <project path="x11/xtst" name="xtst" remote="github" />
+  <project path="x11/libXi" name="libXi" remote="github" />
   <project path="x11/xkeyboard-config" name="xkeyboard-config" remote="github" />
 </manifest>
