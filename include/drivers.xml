@@ -4,6 +4,5 @@
   <project path="drivers/mesa-drm" name="mesa-drm" remote="freedesktop" />
   <project path="drivers/xserver" name="xserver" remote="github" />
   <project path="drivers/libepoxy" name="libepoxy" remote="github" />
-  <project path="drivers/minigbm" name="minigbm" remote="github" />
   <project path="drivers/drm-intel" name="drm-intel-crosvm" remote="github" />
 </manifest>
