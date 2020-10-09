@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="drivers/mesa" name="mesa" remote="freedesktop" />
+  <project path="drivers/libva" name="libva" remote="intel-github" />
+  <project path="drivers/gmmlib" name="gmmlib" remote="intel-github" />
+  <project path="drivers/libpciaccess" name="libpciaccess" remote="github" />
+  <project path="drivers/media-driver" name="media-driver" remote="intel-github" />
   <project path="drivers/mesa-drm" name="mesa-drm" remote="freedesktop" />
   <project path="drivers/xserver" name="xserver" remote="github" />
   <project path="drivers/libepoxy" name="libepoxy" remote="github" />
