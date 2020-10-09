@@ -4,12 +4,12 @@
   <project path="drivers/libva" name="libva" remote="intel-github" />
   <project path="drivers/gmmlib" name="gmmlib" remote="intel-github" />
   <project path="drivers/media-driver" name="media-driver" remote="intel-github" />
-  <project path="drivers/compute/vc-intrinsics" name="vc-intrinsics" remote="intel-github" />
-  <project path="drivers/compute/llvm-project" name="llvm-project" remote="llvm" upstream="release/10.x" dest-branch="refs/heads/master" />
-  <project path="drivers/compute/llvm-project/llvm/projects/opencl-clang" name="opencl-clang" remote="intel-github" upstream="ocl-open-100" dest-branch="refs/heads/master" />
-  <project path="drivers/compute/llvm-project/llvm/projects/llvm-spirv" name="SPIRV-LLVM-Translator" remote="khronous" upstream="llvm_release_100" dest-branch="refs/heads/master" />
-  <project path="drivers/compute/llvm_patches" name="llvm-patches" remote="intel-github" />
-  <project path="drivers/compute/igc" name="intel-graphics-compiler" remote="intel-github" />
+  <project path="drivers/compute/compiler/vc-intrinsics" name="vc-intrinsics" remote="intel-github" />
+  <project path="drivers/compute/compiler/llvm-project" name="llvm-project" remote="llvm" upstream="release/10.x" dest-branch="refs/heads/master" />
+  <project path="drivers/compute/compiler/llvm-project/llvm/projects/opencl-clang" name="opencl-clang" remote="intel-github" upstream="ocl-open-100" dest-branch="refs/heads/master" />
+  <project path="drivers/compute/compiler/llvm-project/llvm/projects/llvm-spirv" name="SPIRV-LLVM-Translator" remote="khronous" upstream="llvm_release_100" dest-branch="refs/heads/master" />
+  <project path="drivers/compute/compiler/llvm_patches" name="llvm-patches" remote="intel-github" />
+  <project path="drivers/compute/compiler/igc" name="intel-graphics-compiler" remote="intel-github" />
   <project path="drivers/mesa-drm" name="mesa-drm" remote="freedesktop" />
   <project path="drivers/xserver" name="xserver" remote="github" />
   <project path="drivers/libepoxy" name="libepoxy" remote="github" />
