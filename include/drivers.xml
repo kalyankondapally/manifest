@@ -7,7 +7,6 @@
   <project path="drivers/vc-intrinsics" name="vc-intrinsics" remote="intel-github" />
   <project path="drivers/llvm-project" name="llvm-project" remote="llvm" upstream="release/10.x" dest-branch="refs/heads/master" />
   <project path="drivers/llvm-project/llvm/projects/opencl-clang" name="opencl-clang" remote="intel-github" upstream="ocl-open-100" dest-branch="refs/heads/master" />
-  <project path="drivers/llvm-project/llvm/projects/llvm-spirv" name="SPIRV-LLVM-Translator" remote="khronous" upstream="llvm_release_100" dest-branch="refs/heads/master" />
   <project path="drivers/llvm_patches" name="llvm_patches" remote="intel-github" />
   <project path="drivers/igc" name="intel-graphics-compiler" remote="intel-github" />
   <project path="drivers/mesa-drm" name="mesa-drm" remote="freedesktop" />
