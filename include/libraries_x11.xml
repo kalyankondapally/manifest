@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="x11/pixman" name="pixman" remote="github" />
-  <project path="x11/xcbproto" name="xcbproto" remote="github" />
-  <project path="x11/libxcb" name="libxcb" remote="github" />
-  <project path="x11/libxkbfile" name="libxkbfile" remote="github" />
-  <project path="x11/libxfont" name="libxfont" remote="github" />
-  <project path="x11/libxext" name="libxext" remote="github" />
-  <project path="x11/libxfixes" name="libxfixes" remote="github" />
-  <project path="x11/libxdamage" name="libxdamage" remote="github" />
-  <project path="x11/libxshmfence" name="libxshmfence" remote="github" />
-  <project path="x11/libxxf86vm" name="libxxf86vm" remote="github" />
-  <project path="x11/libxrandr" name="libxrandr" remote="github" />
-  <project path="x11/libxau" name="libxau" remote="github" />
-  <project path="x11/libxdmcp" name="libxdmcp" remote="github" />
-  <project path="x11/libX11" name="libX11" remote="github" />
   <project path="x11/libpciaccess" name="libpciaccess" remote="github" />
-  <project path="x11/xorgproto" name="xorgproto" remote="github" />
-  <project path="x11/libxtrans" name="libxtrans" remote="github" />
-  <project path="x11/libxrender" name="libxrender" remote="github" />
   <project path="x11/util" name="font-util" remote="github" />
   <project path="x11/xkbcomp" name="xkbcomp" remote="github" />
-  <project path="x11/xtst" name="xtst" remote="github" />
-  <project path="x11/libXi" name="libXi" remote="github" />
   <project path="x11/xkeyboard-config" name="xkeyboard-config" remote="github" />
 </manifest>
