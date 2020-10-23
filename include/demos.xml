@@ -5,4 +5,5 @@
   <project path="demos/mesa-demos" name="mesa-demos" remote="github" />
   <project path="demos/xdpyinfo" name="xdpyinfo" remote="github" />
   <project path="demos/igt" name="igt-gpu-tools" remote="gitlab-drm" />
+  <project path="demos/libva-utils" name="libva-utils" remote="github" />
 </manifest>
