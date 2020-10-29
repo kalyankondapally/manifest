@@ -13,5 +13,5 @@
   <project path="vm/cros_vm/src/third_party/adhd" groups="crosvm" name="chromiumos/third_party/adhd"/>
   <project path="vm/cros_vm/src/third_party/tpm2" groups="crosvm" name="chromiumos/third_party/tpm2"/>
   <project path="vm/minigbm" name="minigbm" remote="github" />
-  <project path="vm/dptf" name="dptf" remote="intel-github" />
+  <project path="vm/dptf" name="dptf" remote="github" />
 </manifest>
